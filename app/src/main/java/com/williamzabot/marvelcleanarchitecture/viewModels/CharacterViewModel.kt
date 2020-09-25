@@ -5,10 +5,10 @@ import androidx.lifecycle.ViewModel
 import androidx.paging.DataSource
 import androidx.paging.LivePagedListBuilder
 import androidx.paging.PagedList
-import com.williamzabot.data.local.datasource.CharacterDataSource
 import com.williamzabot.data.remote.utils.PAGE_SIZE
 import com.williamzabot.domain.models.Character
 import com.williamzabot.domain.usecases.character.CharacterUseCase
+import com.williamzabot.marvelcleanarchitecture.ui.adapter.CharacterDataSource
 
 class CharacterViewModel(private val characterUseCase: CharacterUseCase) : ViewModel() {
 

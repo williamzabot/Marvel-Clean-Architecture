@@ -1,4 +1,4 @@
-package com.williamzabot.data.local.datasource
+package com.williamzabot.marvelcleanarchitecture.ui.adapter
 
 import androidx.paging.PageKeyedDataSource
 import com.williamzabot.data.remote.utils.PAGE_SIZE
